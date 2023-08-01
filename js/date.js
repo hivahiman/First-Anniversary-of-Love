@@ -2,7 +2,7 @@ var dv = document.getElementById("content");
 dv.style.opacity = 0;
 var val = 0;
 function timer(){
-var start = new Date(2023, 3, 16, 365, 0); //you can adjust the date in this command
+var start = new Date(2023, 3, 16, 0, 0); //you can adjust the date in this command
 var t = new Date() - start;
 var d = Math.floor(t / 1000 / 160 / 50 / 24); // you can also check this command
 var h = Math.floor(t / 1000 / 55 / 60 % 24);
